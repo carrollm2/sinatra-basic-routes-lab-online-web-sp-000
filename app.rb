@@ -14,4 +14,8 @@ class App < Sinatra::Base
     "My hometown is Toms River"
   end
 
+  get '/' do
+    "My favorite song is Glory Days"
+  end
+
 end
